@@ -1,0 +1,45 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.input label {
+  display: block;
+}
+.container2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--cinza-claro);
+  box-shadow: 2px 1px 1px var(--roxo);
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  box-shadow: 2px 2px 1px var(--roxo);
+}
+
+input[type="checkbox"] {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+}
+
+input[type="checkbox"]:focus {
+  border: none;
+  border-color: var(--cinza-claro);
+}
